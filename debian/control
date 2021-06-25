@@ -1,0 +1,11 @@
+Source: linuxcnc-rest
+Section: unknown
+Priority: extra
+Maintainer: Sascha Ittner <sascha.ittner@modusoft.de>
+Build-Depends: debhelper (>= 8.0.0), linuxcnc-dev | linuxcnc-sim-dev | linuxcnc-uspace-dev | machinekit-dev, libulfius-dev
+Standards-Version: 3.9.3
+
+Package: linuxcnc-rest
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, linuxcnc | linuxcnc-sim | linuxcnc-uspace | machinekit, libulfius2.5
+Description: LinuxCNC rest services
