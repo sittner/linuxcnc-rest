@@ -1,8 +1,5 @@
 # generc file-types
-**.ko
 **.so
-**.ko.cmd
-**.mod.c
 **.o
 **.o.cmd
 **.swp
@@ -12,8 +9,12 @@
 
 # generic files
 **/.tmp_versions/
-**/modules.order
 config.mk
-src/lcec_conf
-src/Module.symvers
+src/lcrest
 
+# debian pkgbuild files
+debian/.debhelper/
+debian/files
+debian/*.log
+debian/*.substvars
+debian/linuxcnc-rest/
