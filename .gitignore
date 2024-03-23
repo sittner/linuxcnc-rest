@@ -18,3 +18,4 @@ debian/files
 debian/*.log
 debian/*.substvars
 debian/linuxcnc-rest/
+debian/debhelper-build-stamp
