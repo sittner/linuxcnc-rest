@@ -7,5 +7,5 @@ Standards-Version: 3.9.3
 
 Package: linuxcnc-rest
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, linuxcnc | linuxcnc-sim | linuxcnc-uspace | machinekit, libulfius2.5
+Depends: ${shlibs:Depends}, ${misc:Depends}, linuxcnc | linuxcnc-sim | linuxcnc-uspace | machinekit, libulfius2.5 | libulfius2.7
 Description: LinuxCNC rest services
