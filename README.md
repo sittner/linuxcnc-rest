@@ -5,7 +5,7 @@
 >
 > The functionality of `linuxcnc-rest` is now part of
 > [**@stratuMAK/stratumak**](https://github.com/stratuMAK/stratumak), and all
-> further development will continue there. Please use that project instead. This
+> further development will continue there. This
 > repository is kept for historical reference only.
 
 `linuxcnc-rest` is a userspace LinuxCNC HAL component that exposes LinuxCNC HAL
