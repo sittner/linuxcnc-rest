@@ -1,5 +1,13 @@
 # linuxcnc-rest
 
+> [!IMPORTANT]
+> **⚠️ This project is archived and no longer maintained.**
+>
+> The functionality of `linuxcnc-rest` is now part of
+> [**@stratuMAK/stratumak**](https://github.com/stratuMAK/stratumak), and all
+> further development will continue there. Please use that project instead. This
+> repository is kept for historical reference only.
+
 `linuxcnc-rest` is a userspace LinuxCNC HAL component that exposes LinuxCNC HAL
 pins and parameters via a REST/JSON API web server. It allows external
 applications (GUIs, scripts, PLCs, etc.) to read machine state and send
